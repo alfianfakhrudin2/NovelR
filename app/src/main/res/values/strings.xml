@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">NovelR</string>
+    <string name="judul_buku">judul buku</string>
+    <string name="deskripsinya">Deskripsi buku</string>
+    <string name="penerbit">penerbit</string>
+    <string name="genre">genre</string>
+    <string name="bahasa">bahasa</string>
+    <string name="language">Language</string>
+    <string name="publisher">publisher</string>
+    <string name="title_genre">title_genre</string>
+    <string name="you_aspire_to_be_a_writer_but_you_don_t_know_where_to_start_you_also_have_a_great_passion_for_writing_but_don_t_know_who_to_learn_from_fortunately_through_this_book_you_can_learn_from_world_class_writers_who_are_in_the_real_world_of_writing_from_them_you_can_learn_a_lot_about_writing_from_how_to_start_how_to_find_ideas_writing_techniques_to_motivating_yourself_to_write">You aspire to be a writer, but you don\'t know where to start. You also have a great passion for writing, but don\'t know who to learn from. Fortunately, through this book, you can learn from world-class writers who are in the real world of writing. From them, you can learn a lot about writing, from how to start, how to find ideas, writing techniques, to motivating yourself to write.</string>
+    <string name="sinopsis">Sinopsis</string>
+    <string name="writers_and_writing_adi_k">Writers and Writing – Adi K.</string>
+    <string name="alfian_fakhrudin">Alfian Fakhrudin</string>
+    <string name="alfian4551_gmail_com">alfian4551@gmail.com</string>
+    <string name="todo">TODO</string>
+
+    <string-array name="data_name">
+        <item>Writers and Writing – Adi K.</item>
+        <item>si marmut merah jambu</item>
+        <item>The Shark Caller: Sang Pemanggil Hiu</item>
+        <item>Si Anak Badai</item>
+        <item>Moga Bunda Disayang Allah</item>
+        <item>Hilang dalam Dekapan Semeru</item>
+        <item>Pesta Bunuh Diri</item>img
+        <item>Serangkai</item>
+        <item>1 Kos, 3 Cinta, 7 Keberuntungan</item>
+        <item>The Haze Inside</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>You aspire to be a writer, but you dont know where to start. You also have a great passion for writing, but dont know who to learn from. Fortunately, through this book, you can learn from world-class writers who are in the real world of writing. From them, you can learn a lot about writing, from how to start, how to find ideas, writing techniques, to motivating yourself to write.</item>
+        <item>The story in this novel centers on Radit daily life, ranging from love problems, friendship, to his hilarious experiences in various situations. One of the main elements in the story is his romance with a girl named Anjani. However, like most real-life love stories, their relationship is not always smooth and full of complications. During the course of the story, readers will be presented with a variety of short stories that are intriguing and full of laughter. Radit also often tells stories about his friends who have very diverse characters, including his mysterious boarding house friend, Marmut Merah Jambu.</item>
+        <item>"I want to be able to summon sharks. Please teach me the spell and show me how!" In the midst of his desperation to become a shark summoner to avenge the death of his parents, Blue Wing is forced to befriend the extremely annoying newcomer, Maple Hamelin. At first they are like water and oil, hardly getting along. But when the waves stir up rumors of treasure, they try to conquer their differences and challenge the deadliest shark in the ocean. The two travel between the waves, forging friendships, cultivating courage, and strengthening their hearts to forgive. It all happens on the beautiful coast of Papua New Guinea.</item>
+        <item>The story follows the journey of the Son of Storm in search of his true self and dreams. He meets various influential characters in his life, including a wise old priest, a tough ship captain, and a beautiful woman who becomes his love. Along the way, Anak Badai faces conflicts such as battles against pirates, the search for treasure, and secrets hidden within his family.</item>
+        <item>This novel tells the story of a small family living in the suburbs of Jakarta. The main character in this story is a mother named Bunda Siti and her two children, Fira and Aji. They live in simplicity, and Bunda Siti works as a cake seller to fulfill her familys needs. Despite living in limitations, this family has their own happiness. They support and love each other. Fira, the eldest child, is a smart and diligent child at school. While Aji, her younger brother, is a child full of enthusiasm and joy.</item>
+        <item>The novel takes place on Mount Semeru, the highest mountain in Java, Indonesia, which is one of the most popular climbing destinations for adventurers. The story begins with the introduction of the main character, a novice climber named Naya. Naya is a girl who aspires to reach the summit of Semeru, even though she has no mountain climbing experience. Naya joins a climbing team led by an experienced climber named Rama. The team consists of a number of individuals with different backgrounds and characters, but all share the same dream of reaching the summit of Semeru. They start climbing with high spirits, but on the way, they are faced with various challenges and obstacles that involve physical, mental and emotional endurance.</item>
+        <item>An ancient civilization in a forest on a remote island, and humans are not the only inhabitants. The Twin Gardens have always been surrounded by forest, but the inhabitants are strictly forbidden from entering the forest. Surviving on limited food, knowledge, and animal harassment is not their biggest problem. However, something was bothering them. The Black Scales always came to visit and every night invited the villagers to a party. A short party that always ended before it had a chance to begin.</item>
+        <item>a man named Kai Deverra or familiarly called Deverra who tries to live his regret for being left by his girlfriend and then meeting Karina Maladivas. It is still Nota who is locked in his own solitude and loneliness.</item>
+        <item>tells the story of three best friends, Aisya, Adara, and Amelia, who live in the same boarding house. The three of them have different characters, but they always support each other in facing various situations and challenges in life.</item>
+        <item>People who have goals can succeed or fail depending on their choices, whether they want to fight or give up, or whether it is Gods destiny for them not to get what they want. Rigel is now at a crossroads. Soon he will graduate from the boarding school, but he doesnt know what to do after his nine-year compulsory education period is over. Should I work? Or go to university? But what major? What profession does is want to do? Dead end. Rigel didnt know the answer to any of these questions. On the other hand, Ghazi, his best friend since junior high school, seems to have drifted away from him since the incident that got him severely punished by the boarding school. For the sake of friendship, Rigel wants to help, but Ghazi is very secretive about his own problems. Until one incident finally dragged Rigel and his three friends deep and put them in danger of being dishonorably expelled: Disappointing their parents and destroying their future.</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>@drawable/book1</item>
+        <item>@drawable/book2</item>
+        <item>@drawable/book3</item>
+        <item>@drawable/book4</item>
+        <item>@drawable/book5</item>
+        <item>@drawable/book6</item>
+        <item>@drawable/img</item>
+        <item>@drawable/book7</item>
+        <item>@drawable/book8</item>
+        <item>@drawable/book10</item>
+    </string-array>
+
+    <string-array name="genre">
+        <item>Survival</item>
+        <item>Comedy</item>
+        <item>romance</item>
+        <item>Mystery</item>
+        <item>Fantasy</item>
+        <item>Horor</item>
+        <item>Horor</item>
+        <item>General Fiction</item>
+        <item>Drama</item>
+        <item>Drama2</item>
+    </string-array>
+
+    <string-array name="penerbit">
+        <item>Elex Media Komputindo</item>
+        <item>Elex Media Komputindo2</item>
+        <item>Elex Media Komputind3</item>
+        <item>Elex Media Komputindo4</item>
+        <item>Elex Media Komputindo5</item>
+        <item>Elex Media Komputindo6</item>
+        <item>Elex Media Komputindo7</item>
+        <item>Elex Media Komputindo8</item>
+        <item>Elex Media Komputindo9</item>
+        <item>Elex Media Komputindo9</item>
+    </string-array>
+
+    <string-array name="bahasa">
+        <item>Indonesia</item>
+        <item>English</item>
+        <item>Indonesia</item>
+        <item>Japan</item>
+        <item>Indonesia</item>
+        <item>Korea</item>
+        <item>Indonesia</item>
+        <item>China</item>
+        <item>Spain</item>
+        <item>France</item>
+    </string-array>
+
+</resources>

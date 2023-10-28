@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailAtivity">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/avatar"
+                android:layout_width="219dp"
+                android:layout_height="297dp"
+                android:scaleType="fitXY"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/book1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/todo" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/josen"
+                android:textStyle="bold"
+                android:text="@string/writers_and_writing_adi_k"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/avatar"/>
+
+            <TextView
+                android:id="@+id/sinop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sinopsis"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title"/>
+
+            <TextView
+                android:id="@+id/DeskSinop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/you_aspire_to_be_a_writer_but_you_don_t_know_where_to_start_you_also_have_a_great_passion_for_writing_but_don_t_know_who_to_learn_from_fortunately_through_this_book_you_can_learn_from_world_class_writers_who_are_in_the_real_world_of_writing_from_them_you_can_learn_a_lot_about_writing_from_how_to_start_how_to_find_ideas_writing_techniques_to_motivating_yourself_to_write"
+                android:textSize="15sp"
+                android:layout_marginStart="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/sinop"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="@string/title_genre"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/DeskSinop" />
+
+            <TextView
+                android:id="@+id/deskGen"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="@string/genre"
+                android:textSize="16sp"
+                android:layout_marginTop="7dp"
+                android:layout_marginStart="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView5"/>
+
+            <TextView
+                android:id="@+id/deski"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/publisher"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/deskGen" />
+
+            <TextView
+                android:id="@+id/PenDesk"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="@string/penerbit"
+                android:textSize="16sp"
+                android:layout_marginTop="7dp"
+                android:layout_marginStart="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/deski" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/language"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/PenDesk"/>
+
+            <TextView
+                android:id="@+id/DeskLanguage"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="@string/bahasa"
+                android:textSize="16sp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="7dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView2"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/action_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="20dp"
+                android:src="@drawable/baseline_share_24"
+                app:borderWidth="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:contentDescription="@string/todo" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+
+
